@@ -1,0 +1,24 @@
+{
+  "model": "MiniMax-H3",
+  "content": [
+    {
+      "type": "text",
+      "text": "严格按照参考素材制作。\n\nImage 1 是 Mixed 1：奥巴马人物三视图。请锁定该角色的五官、短灰黑发、身材比例、深蓝西装、白衬衫、蓝领带、黑色皮鞋，并在全片保持同一角色身份一致。\n\nVideo 1 是 Mixed 2：多人动作、空间纵深、人物姿态、遮挡关系、镜头运动、画面结构和原始场景参考视频。请严格遵循 Video 1 中的人物数量、相对站位、前后景关系、动作节奏、身体姿态、镜头移动轨迹和构图变化，不要偏移。\n\n重点：保留 Video 1 的原始场景背景和空间锚点。保留红色墙面、地面、水面、荷叶、木板、散落道具、真实光影、前后景遮挡和镜头运动。不要把场景改成白棚，不要清空背景，不要删除空间锚点，不要把画面变成单调纯色背景。\n\n只替换人物：将 Video 1 中所有可见人物都替换为 Image 1 的奥巴马角色形象。因为只有一个角色参考图，所以所有人物都使用同一角色身份和同一套深蓝西装造型，但必须保留 Video 1 中每个人各自的空间位置、身体姿态、动作时序、前后遮挡和人物数量。不要让人物消失、合并、串位或数量减少。\n\n去掉原视频中的中文字幕和文字叠加。可以替换原人物服装、头饰和发型为 Image 1 的西装角色形象，但不要破坏原场景的红墙、水面、荷叶、木板、地面和道具布局。\n\n输出超写实真人短片。人物与原场景光照、透视、接触阴影和环境材质自然融合；画面流畅无崩坏，身体比例稳定，手脚不畸形，所有人物持续匹配 Video 1 的运动和空间信息，角色形象保持统一。"
+    },
+    {
+      "type": "image_url",
+      "role": "reference_image",
+      "source": "/Users/july/Documents/Codex/2026-09-09/files-mentioned-by-the-user-codex/outputs/obama_three_view_reference.png",
+      "prepared": "/Users/july/Documents/Codex/2026-09-09/files-mentioned-by-the-user-codex/work/minimax_h3_obama_multi_person_keep_bg_0909/mixed1_reference_image.jpg"
+    },
+    {
+      "type": "video_url",
+      "role": "reference_video",
+      "source": "/Users/july/Desktop/9月9日/9月9日.mov",
+      "prepared": "/Users/july/Documents/Codex/2026-09-09/files-mentioned-by-the-user-codex/work/minimax_h3_obama_multi_person_keep_bg_0909/mixed2_reference_video_15s.mp4"
+    }
+  ],
+  "resolution": "2K",
+  "duration": 10,
+  "ratio": "16:9"
+}

@@ -1,0 +1,20 @@
+{
+  "task_id": "2097616247729123328",
+  "status": "succeeded",
+  "title": "红墙水畔多人动作替换为奥巴马形象",
+  "model": "MiniMax-H3",
+  "resolution": "2K",
+  "duration": 10,
+  "ratio": "16:9",
+  "usage": {
+    "total_seconds": 20,
+    "input_seconds": 10,
+    "output_seconds": 10,
+    "input_image_count": 1
+  },
+  "output_video": "outputs/metaso_minimax_h3_obama_multi_person_keep_bg_0909.mp4",
+  "reference_image": "outputs/obama_three_view_reference.png",
+  "reference_video": "/Users/july/Desktop/9月9日/9月9日.mov",
+  "prompt_file": "work/obama_multi_person_keep_background_prompt.txt",
+  "payload_summary": "outputs/metaso_minimax_h3_obama_multi_person_keep_bg_0909_payload_summary.json"
+}

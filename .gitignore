@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local secrets
+.env
+.env.*
+
+# Generated outputs and large media
+outputs/
+work/
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Full payload files may contain embedded base64 media.
+payload.with_data_uri.json
+*.with_data_uri.json
