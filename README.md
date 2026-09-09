@@ -24,6 +24,12 @@
 - `result_payload_summary.json`：不含 base64 的请求摘要
 - `work/.../payload.with_data_uri.json`：完整请求体，仅用于调试，不建议长期保存
 
+## Cases
+
+- [Multi-person keep-background replacement](cases/obama-multi-person-keep-background.md)
+
+案例目录只放脱敏后的流程说明、prompt、metadata 和 payload 摘要，不提交原始视频、生成视频、完整 base64 payload 或任何 API key。
+
 ## 推荐命令
 
 默认保留原背景：

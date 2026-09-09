@@ -14,7 +14,7 @@
   },
   "output_video": "outputs/metaso_minimax_h3_obama_multi_person_keep_bg_0909.mp4",
   "reference_image": "outputs/obama_three_view_reference.png",
-  "reference_video": "/Users/july/Desktop/9月9日/9月9日.mov",
-  "prompt_file": "work/obama_multi_person_keep_background_prompt.txt",
+  "reference_video": "inputs/source-video.mov",
+  "prompt_file": "prompts/keep-background.txt",
   "payload_summary": "outputs/metaso_minimax_h3_obama_multi_person_keep_bg_0909_payload_summary.json"
 }

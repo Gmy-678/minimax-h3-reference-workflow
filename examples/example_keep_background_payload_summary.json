@@ -8,14 +8,14 @@
     {
       "type": "image_url",
       "role": "reference_image",
-      "source": "/Users/july/Documents/Codex/2026-09-09/files-mentioned-by-the-user-codex/outputs/obama_three_view_reference.png",
-      "prepared": "/Users/july/Documents/Codex/2026-09-09/files-mentioned-by-the-user-codex/work/minimax_h3_obama_multi_person_keep_bg_0909/mixed1_reference_image.jpg"
+      "source": "inputs/character-reference.png",
+      "prepared": "work/run-id/mixed1_reference_image.jpg"
     },
     {
       "type": "video_url",
       "role": "reference_video",
-      "source": "/Users/july/Desktop/9月9日/9月9日.mov",
-      "prepared": "/Users/july/Documents/Codex/2026-09-09/files-mentioned-by-the-user-codex/work/minimax_h3_obama_multi_person_keep_bg_0909/mixed2_reference_video_15s.mp4"
+      "source": "inputs/source-video.mov",
+      "prepared": "work/run-id/mixed2_reference_video_15s.mp4"
     }
   ],
   "resolution": "2K",
